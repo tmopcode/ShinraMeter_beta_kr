@@ -15,6 +15,7 @@ using DamageMeter.Database.Structures;
 using Nostrum;
 using Tera.Game;
 using Tera.Game.Abnormality;
+using DamageMeter.UI;
 
 namespace DamageMeter.UI
 {
@@ -640,6 +641,9 @@ namespace DamageMeter.UI
             WindowTitle = servername;
             Connected = servername != LP.SystemTray_No_server;
             ToastData.Show(Connected ? "Connected to " + servername : "Disconnected", Connected ? ToastInfo.Severity.Success : ToastInfo.Severity.Info);
+
+            // Server Disconnected TeraMeterClose.
+            App.TeraMeterClose();
         }
         private void OnOverloadedChanged()
         {

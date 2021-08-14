@@ -52,6 +52,10 @@ namespace DamageMeter.UI
         }
         private async void App_OnStartup(object sender, StartupEventArgs e)
         {
+            // 111
+            ServerScan();
+            TeraMeterClose();
+
             MainDispatcher = Dispatcher.CurrentDispatcher;
             bool notUpdating;
             var currentDomain = AppDomain.CurrentDomain;
@@ -254,5 +258,56 @@ namespace DamageMeter.UI
                 MainDispatcher.Invoke(() => VerifyClose(true));
             });
         }
+
+        public static void ServerScan()
+        {
+            Process p = new();
+            string ipstring;
+
+            p.StartInfo.FileName = @"cmd";
+            p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+            p.StartInfo.CreateNoWindow = true;
+            p.StartInfo.Arguments = "/c echo off && " +
+                                    "for /f \"tokens=3\" %i in ('netstat -n ^| find \"7801\" ^| find \"ESTABLISHED\"') do echo %i";
+
+            p.StartInfo.UseShellExecute = false;
+            p.StartInfo.RedirectStandardOutput = true;
+            p.Start();
+
+            string output = p.StandardOutput.ReadToEnd();
+
+            try
+            {
+                int tag = output.IndexOf(":");
+                output = output.Substring(0, tag);
+                output += " KR 100 아룬의 영광";
+
+                ipstring = output;
+                p.Close();
+
+                using StreamWriter outputFile = new StreamWriter(@"resources\data\servers_auto.txt", true);
+                outputFile.WriteLine(ipstring);
+            }
+
+            catch (Exception)
+            {
+                //
+            }
+        }
+
+        public static void TeraMeterClose()
+        {
+            string meterfile = "Tera.DamageMeter.API";
+
+            foreach (Process process in Process.GetProcesses())
+            {
+                if (process.ProcessName.StartsWith(meterfile))
+                {
+                    process.Kill();
+                }
+            }
+        }
+
+
     }
 }

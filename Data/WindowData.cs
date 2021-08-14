@@ -61,10 +61,10 @@ namespace Data
 
     public enum CaptureMode
     {
-        [Description("Raw sockets")]
-        RawSockets,
         [Description("npcap")]
         Npcap,
+        [Description("Raw sockets")]
+        RawSockets,
         [Description("TERA Toolbox")]
         Toolbox
     }
