@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5-windows</TargetFramework>
+		<ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+		<AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+		<AssemblyTitle>PacketViewer.UI</AssemblyTitle>
+		<Product>PacketViewer.UI</Product>
+		<Copyright>Copyright ©  2019</Copyright>
+		<OutputPath>bin\$(Configuration)\</OutputPath>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+	<PropertyGroup>
+		<RestorePackagesPath>..\packages</RestorePackagesPath>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+		<DebugType>portable</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+	</PropertyGroup>
+	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+		<DebugType>pdbonly</DebugType>
+	</PropertyGroup>
+	<PropertyGroup>
+		<StartupObject>PacketViewer.UI.App</StartupObject>
+	</PropertyGroup>
+	<PropertyGroup>
+		<ApplicationIcon>opf.ico</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+		<PackageReference Include="System.Data.DataSetExtensions" Version="4.5.0" />
+		<PackageReference Include="System.Net.Http" Version="4.3.4" />
+	</ItemGroup>
+	<ItemGroup>
+		<Reference Include="System.Xaml" />
+		<Reference Include="WindowsBase" />
+		<Reference Include="PresentationCore" />
+		<Reference Include="PresentationFramework" />
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="DroidSansMono.ttf" />
+	</ItemGroup>
+	<ItemGroup>
+		<Resource Include="opf.ico" />
+		<Resource Include="shinra.ico" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DamageMeter.Core\DamageMeter.Core.csproj" />
+		<ProjectReference Include="..\DamageMeter.Sniffing\DamageMeter.Sniffing.csproj" />
+		<ProjectReference Include="..\PacketViewer.Core\PacketViewer.Core.csproj" />
+		<ProjectReference Include="..\TeraCommon\Tera.Core.csproj" />
+	</ItemGroup>
+</Project>

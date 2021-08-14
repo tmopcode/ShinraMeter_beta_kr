@@ -1,0 +1,90 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <RootNamespace>DamageMeter</RootNamespace>
+    <AssemblyName>DamageMeter</AssemblyName>
+    <AssemblyTitle>Tera.DamageMeter.Core</AssemblyTitle>
+    <Product>Tera.DamageMeter.Core</Product>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Copyright>Copyright ©  2015</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <TargetFrameworks>net5-windows</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup Condition="$(TargetFramework.StartsWith('net5'))">
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="3.1.0" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+  <PropertyGroup> 
+    <ContentSQLiteInteropFiles>true</ContentSQLiteInteropFiles>
+    <CopySQLiteInteropFiles>false</CopySQLiteInteropFiles>
+    <CleanSQLiteInteropFiles>true</CleanSQLiteInteropFiles>
+    <CollectSQLiteInteropFiles>false</CollectSQLiteInteropFiles>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.0.150" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="EPPlus" Version="4.5.3.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Squid-Box.SevenZipSharp" Version="1.3.283" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.1" />
+    <PackageReference Include="System.Data.SQLite.EF6" Version="1.0.113" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\lib\DiscordRPC.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DamageMeter.AutoUpdate\DamageMeter.AutoUpdate.csproj" />
+    <ProjectReference Include="..\Lang\Lang.csproj" />
+    <ProjectReference Include="..\Data\Data.csproj" />
+    <ProjectReference Include="..\DamageMeter.Sniffing\DamageMeter.Sniffing.csproj" />
+    <ProjectReference Include="..\TeraCommon\Tera.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Lang\Pack.??-??.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Helpers.cs" />
+    <Compile Remove="Properties\AspMvcActionAttribute.cs" />
+    <Compile Remove="Properties\AspMvcActionSelectorAttribute.cs" />
+    <Compile Remove="Properties\AspMvcAreaAttribute.cs" />
+    <Compile Remove="Properties\AspMvcControllerAttribute.cs" />
+    <Compile Remove="Properties\AspMvcDisplayTemplateAttribute.cs" />
+    <Compile Remove="Properties\AspMvcEditorTemplateAttribute.cs" />
+    <Compile Remove="Properties\AspMvcMasterAttribute.cs" />
+    <Compile Remove="Properties\AspMvcModelTypeAttribute.cs" />
+    <Compile Remove="Properties\AspMvcPartialViewAttribute.cs" />
+    <Compile Remove="Properties\AspMvcSupressViewErrorAttribute.cs" />
+    <Compile Remove="Properties\AspMvcViewAttribute.cs" />
+    <Compile Remove="Properties\BaseTypeRequiredAttribute.cs" />
+    <Compile Remove="Properties\CanBeNullAttribute.cs" />
+    <Compile Remove="Properties\CannotApplyEqualityOperatorAttribute.cs" />
+    <Compile Remove="Properties\ContractAnnotationAttribute.cs" />
+    <Compile Remove="Properties\ImplicitUseKindFlags.cs" />
+    <Compile Remove="Properties\ImplicitUseTargetFlags.cs" />
+    <Compile Remove="Properties\InstantHandleAttribute.cs" />
+    <Compile Remove="Properties\InvokerParameterNameAttribute.cs" />
+    <Compile Remove="Properties\LocalizationRequiredAttribute.cs" />
+    <Compile Remove="Properties\MeansImplicitUseAttribute.cs" />
+    <Compile Remove="Properties\NotifyPropertyChangedInvocatorAttribute.cs" />
+    <Compile Remove="Properties\NotNullAttribute.cs" />
+    <Compile Remove="Properties\PathReferenceAttribute.cs" />
+    <Compile Remove="Properties\PublicAPIAttribute.cs" />
+    <Compile Remove="Properties\PureAttribute.cs" />
+    <Compile Remove="Properties\RazorSectionAttribute.cs" />
+    <Compile Remove="Properties\StringFormatMethodAttribute.cs" />
+    <Compile Remove="Properties\UsedImplicitlyAttribute.cs" />
+  </ItemGroup>
+</Project>

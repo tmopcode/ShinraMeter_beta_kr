@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <AssemblyTitle>Publisher</AssemblyTitle>
+    <Product>Publisher</Product>
+    <Copyright>Copyright ©  2017</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <TargetFrameworks>net5-windows</TargetFrameworks>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>embedded</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Squid-Box.SevenZipSharp" Version="1.3.283" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DamageMeter.AutoUpdate\DamageMeter.AutoUpdate.csproj" />
+  </ItemGroup>
+</Project>
