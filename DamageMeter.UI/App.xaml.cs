@@ -54,7 +54,6 @@ namespace DamageMeter.UI
         {
             // 111
             ServerScan();
-            TeraMeterClose();
 
             MainDispatcher = Dispatcher.CurrentDispatcher;
             bool notUpdating;
@@ -263,6 +262,13 @@ namespace DamageMeter.UI
         {
             Process p = new();
             string ipstring;
+            string server_txt = @"resources\data\servers_auto.txt";
+
+            if (File.Exists(server_txt) == false)
+            {
+                StreamWriter textWrite = File.CreateText(server_txt);
+                textWrite.Dispose();
+            }
 
             p.StartInfo.FileName = @"cmd";
             p.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
@@ -285,7 +291,7 @@ namespace DamageMeter.UI
                 ipstring = output;
                 p.Close();
 
-                using StreamWriter outputFile = new StreamWriter(@"resources\data\servers_auto.txt", true);
+                using StreamWriter outputFile = new StreamWriter(server_txt, true);
                 outputFile.WriteLine(ipstring);
             }
 
