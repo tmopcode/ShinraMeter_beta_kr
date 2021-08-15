@@ -642,7 +642,7 @@ namespace DamageMeter.UI
             Connected = servername != LP.SystemTray_No_server;
             ToastData.Show(Connected ? "Connected to " + servername : "Disconnected", Connected ? ToastInfo.Severity.Success : ToastInfo.Severity.Info);
 
-            // Server Disconnected TeraMeterClose.
+            // Server OnConnected TeraMeterClose.
             App.TeraMeterClose();
         }
         private void OnOverloadedChanged()
