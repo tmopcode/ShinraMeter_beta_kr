@@ -26,7 +26,7 @@ namespace DamageMeter.UI
         {
             try
             {
-                BeginAnimation(TopProperty, AnimationFactory.CreateDoubleAnimation(500, Screen.FromRectangle(new System.Drawing.Rectangle((int)Left, (int)Top, (int)Width, (int)Height)).Bounds.Height / 2 + ActualHeight / 2 + 40, easing: true));
+                BeginAnimation(TopProperty, AnimationFactory.CreateDoubleAnimation(0, Screen.FromRectangle(new System.Drawing.Rectangle((int)Left, (int)Top, (int)Width, (int)Height)).Bounds.Height / 2 + ActualHeight / 2 + 40, easing: true));
             }
             catch { }
 
