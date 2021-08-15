@@ -25,11 +25,11 @@ namespace DamageMeter.UI.HUD.Windows
             if (!BasicTeraData.Instance.WindowData.BossGageStatus.Visible) return;
             if (HudManager.Instance.CurrentBosses.Count == 0)
             {
-                HideWindow();
+                //HideWindow();
             }
             else
             {
-                    ShowWindow();
+                ShowWindow();
                 //if (!IsVisible)
                 //{
                 //}
