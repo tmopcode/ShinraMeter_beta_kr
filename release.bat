@@ -23,6 +23,23 @@ md "%output%\resources"
 md "%output%\resources\config"
 md "%output%\lib"
 
+rmdir "%source%\DamageMeter.UI\bin\%variant%\cs" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\de" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\es" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\fr" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\hu" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\it" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\ja" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\pl" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\pt-BR" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\ro" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\ru" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\sv" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\tr" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\zh-Hans" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\zh-Hant" /s /q
+rmdir "%source%\DamageMeter.UI\bin\%variant%\ref" /s /q
+
 xcopy "%source%\DamageMeter.UI\bin\%variant%" "%output%\" /E
 copy "%source%\DamageMeter.AutoUpdate\bin\Release\net471\Autoupdate.exe" "%output%\Autoupdate.exe"
 xcopy "%source%\lib" "%output%\lib\" /E
