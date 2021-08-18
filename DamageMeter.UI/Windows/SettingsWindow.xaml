@@ -323,7 +323,7 @@
                         <settings:ValueSetting Value="{Binding OtherWindowsOpacity, Mode=TwoWay}"
                                                SettingName="{x:Static lang:LP.SystemTray_OtherWindowOpacity}"
                                                Min="0.1" Max="1" />
-                        <settings:ValueSetting Value="{Binding Scale, Mode=TwoWay}" SettingName="Scale" Min="0" Max="5" />
+                        <settings:ValueSetting Value="{Binding Scale, Mode=TwoWay}" SettingName="{x:Static lang:LP.SystemTray_Scale}" Min="0" Max="5" />
                         <Grid Margin="35 10 0 10">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*" />
@@ -331,16 +331,16 @@
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
                             <Separator Grid.Column="0" Opacity=".2" />
-                            <TextBlock Grid.Column="1" Text="Colors" Margin="10 0" Foreground="#3fff" />
+                            <TextBlock Grid.Column="1" Text="{x:Static lang:LP.SystemTray_Colors}" Margin="10 0" Foreground="#3fff" />
                             <Separator Grid.Column="2" Opacity=".2" />
                         </Grid>
                         <UniformGrid Rows="1" Margin="28 0 0 0">
-                            <local:ColorSetting SettingName="Background"
+                            <local:ColorSetting SettingName="{x:Static lang:LP.SystemTray_Colors_Background}"
                                                 SelectedColor="{Binding BackgroundColor, Mode=TwoWay}"
                                                 DefaultColor="{x:Static data:WindowData.DefaultBackgroundColor}" />
-                            <local:ColorSetting SettingName="Border" SelectedColor="{Binding BorderColor, Mode=TwoWay}"
+                            <local:ColorSetting SettingName="{x:Static lang:LP.SystemTray_Colors_Border}" SelectedColor="{Binding BorderColor, Mode=TwoWay}"
                                                 DefaultColor="{x:Static data:WindowData.DefaultBorderColor}" />
-                            <local:ColorSetting SettingName="Player" SelectedColor="{Binding SelfColor, Mode=TwoWay}"
+                            <local:ColorSetting SettingName="{x:Static lang:LP.SystemTray_Colors_Player}" SelectedColor="{Binding SelfColor, Mode=TwoWay}"
                                                 DefaultColor="{x:Static data:WindowData.DefaultPlayerColor}" />
                         </UniformGrid>
 
@@ -926,7 +926,7 @@
                         Opacity=".5">
                 <Path Data="{StaticResource Svg.Info}" Margin="6"
                       Style="{StaticResource PathBaseStyle}" Opacity=".4" />
-                <TextBlock Text="Settings are saved when closing this window and when closing meter"
+                <TextBlock Text="{x:Static lang:LP.SystemTray_Bottom_Text}"
                            Style="{StaticResource DefaultTextStyle}"
                            VerticalAlignment="Center" />
             </StackPanel>

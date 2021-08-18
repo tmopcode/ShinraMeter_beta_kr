@@ -424,7 +424,6 @@
   <data name="SlayingTooltip" xml:space="preserve">
     <value>'필사의 일격' 크리스탈을 장착시 발동합니다.</value>
   </data>
-  <!-- HitDirection overrides -->
   <data name="Back" xml:space="preserve">
     <value>후방</value>
   </data>
@@ -495,7 +494,7 @@
     <value>Alliance color</value>
   </data>
   <data name="AreaColor" xml:space="preserve">
-    <value>가드말 색상</value>
+    <value>가드말 색깔</value>
   </data>
   <data name="GeneralColor" xml:space="preserve">
     <value>General color</value>
@@ -538,5 +537,77 @@
   </data>
   <data name="Valkyrie" xml:space="preserve">
     <value>월광무사</value>
+  </data>
+  <data name="AutoDisableChatWhenOverloaded" xml:space="preserve">
+    <value>과부하 시 자동으로 비활성화</value>
+  </data>
+  <data name="CaptureMode" xml:space="preserve">
+    <value>캡처 모드</value>
+  </data>
+  <data name="DisablePartyEvents" xml:space="preserve">
+    <value>파티 이벤트 사용 안 함</value>
+  </data>
+  <data name="Display_only_boss_hit_by_meter_user" xml:space="preserve">
+    <value>미터기 사용자가 명중시킨 보스만 표시</value>
+  </data>
+  <data name="Display_timer_aggro_or_firsthit" xml:space="preserve">
+    <value>어그로 기준 타이머</value>
+  </data>
+  <data name="IdleResetTimeout" xml:space="preserve">
+    <value>유휴 재설정 시간 제한 (0=사용 안 함)</value>
+  </data>
+  <data name="MaxTTSSize" xml:space="preserve">
+    <value>TTS max size</value>
+  </data>
+  <data name="MuteSound" xml:space="preserve">
+    <value>음소거</value>
+  </data>
+  <data name="NoAbnormalsInHUD" xml:space="preserve">
+    <value>HP 바 아래 이상 상태 아이콘 사용 안 함</value>
+  </data>
+  <data name="ShowAfkEventsIngame" xml:space="preserve">
+    <value>Show common_afk events ingame</value>
+  </data>
+  <data name="ShowBossGage" xml:space="preserve">
+    <value>보스 HP 바 표시</value>
+  </data>
+  <data name="ShowSelfOnTop" xml:space="preserve">
+    <value>항상 맨위로 표시</value>
+  </data>
+  <data name="SystemTray_Bottom_Text" xml:space="preserve">
+    <value>이 창을 닫을 때와 미터기를 닫을 때 설정이 저장됩니다.</value>
+  </data>
+  <data name="SystemTray_Colors" xml:space="preserve">
+    <value>색깔</value>
+  </data>
+  <data name="SystemTray_Colors_Background" xml:space="preserve">
+    <value>배경</value>
+  </data>
+  <data name="SystemTray_Colors_Border" xml:space="preserve">
+    <value>테두리</value>
+  </data>
+  <data name="SystemTray_Colors_Player" xml:space="preserve">
+    <value>사용자</value>
+  </data>
+  <data name="SystemTray_IgnorePacketsThreshold" xml:space="preserve">
+    <value>패킷 임계값 무시</value>
+  </data>
+  <data name="SystemTray_LowPriority" xml:space="preserve">
+    <value>낮은 우선 순위</value>
+  </data>
+  <data name="SystemTray_MainWindowOpacity" xml:space="preserve">
+    <value>메인 창 불투명도</value>
+  </data>
+  <data name="SystemTray_OtherWindowOpacity" xml:space="preserve">
+    <value>기타 창 불투명도</value>
+  </data>
+  <data name="SystemTray_Scale" xml:space="preserve">
+    <value>크기</value>
+  </data>
+  <data name="SystemTray_SnapToBorders" xml:space="preserve">
+    <value>창을 테두리에 맞춤</value>
+  </data>
+  <data name="TTSSizeExceededTruncate" xml:space="preserve">
+    <value>Truncate TTS message</value>
   </data>
 </root>

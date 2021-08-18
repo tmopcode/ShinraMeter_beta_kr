@@ -892,4 +892,22 @@ Reset and paused until map change or relog.</value>
   <data name="SystemTray_SnapToBorders" xml:space="preserve">
     <value>Snap windows to borders</value>
   </data>
+  <data name="SystemTray_Bottom_Text" xml:space="preserve">
+    <value>Settings are saved when closing this window and when closing meter</value>
+  </data>
+  <data name="SystemTray_Colors" xml:space="preserve">
+    <value>Colors</value>
+  </data>
+  <data name="SystemTray_Colors_Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="SystemTray_Colors_Border" xml:space="preserve">
+    <value>Border</value>
+  </data>
+  <data name="SystemTray_Colors_Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="SystemTray_Scale" xml:space="preserve">
+    <value>Scale</value>
+  </data>
 </root>
