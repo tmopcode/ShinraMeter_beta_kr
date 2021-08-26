@@ -21,7 +21,8 @@ namespace Tera.Game.Messages
         {
             reader.Skip(4);
             Source = reader.ReadEntityId();
-            if (reader.Factory.ReleaseVersion >= 7402) {
+            if (reader.Factory.ReleaseVersion >= 7402)
+            {
                 var owner = reader.ReadEntityId();
                 if (owner.Id != 0) Source = owner;
             } // not sure, when it was added
@@ -30,22 +31,28 @@ namespace Tera.Game.Messages
             TemplateId = reader.ReadInt32();
 
             SkillId = new SkillId(reader).Id;
-
+            if (reader.Factory.ReleaseVersion >= 11001)
+            { //todo: override for 99.01 
+                var originalSkillId = new SkillId(reader).Id;
+                if (originalSkillId != 0) SkillId = originalSkillId; //not sure what is originalSkillId, but ingame meter use it in this way. todo: look at it later if they implement something new.
+            }
             HitId = reader.ReadInt32(); //index in TargetingList (NOT id) - See DataCenter.SkillData
             Unknow2 = reader.ReadBytes(12); //index in area, id, time
 
             Amount = reader.Factory.ReleaseVersion < 6200 ? reader.ReadInt32() : reader.ReadInt64();// KR now use 64 bit
             FlagsDebug = reader.ReadInt32();
-            Flags = (SkillResultFlags) FlagsDebug;
+            Flags = (SkillResultFlags)FlagsDebug;
             IsCritical = (reader.ReadByte() & 1) != 0;
             ConsumeEdge = (reader.ReadByte() & 1) != 0;
-            if (reader.Factory.ReleaseVersion >= 3707) {//brawler stuff
+            if (reader.Factory.ReleaseVersion >= 3707)
+            {//brawler stuff
                 Blocked = (reader.ReadByte() & 1) != 0; ///SuperArmor
                 SuperArmorId = reader.ReadInt32();
                 HitCylinderId = reader.ReadInt32();
                 reader.Skip(4); // reaction bools: enable,push,air, airchain
-            } else reader.Skip(2); //reaction bools: enable, push
-            if (reader.Factory.ReleaseVersion>=8600) reader.Skip(2);//SkillDamageType
+            }
+            else reader.Skip(2); //reaction bools: enable, push
+            if (reader.Factory.ReleaseVersion >= 8600) reader.Skip(2);//SkillDamageType
 
             Position = reader.ReadVector3f();
             Heading = reader.ReadAngle();
