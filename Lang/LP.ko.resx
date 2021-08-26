@@ -572,7 +572,7 @@
     <value>보스 HP 바 표시</value>
   </data>
   <data name="ShowSelfOnTop" xml:space="preserve">
-    <value>항상 맨위로 표시</value>
+    <value>플레이어 맨위로 표시</value>
   </data>
   <data name="SystemTray_Bottom_Text" xml:space="preserve">
     <value>이 창을 닫을 때와 미터기를 닫을 때 설정이 저장됩니다.</value>
