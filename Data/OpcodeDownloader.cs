@@ -29,7 +29,7 @@ namespace Data
             }
             try
             {
-                Download("https://raw.githubusercontent.com/neowutran/TeraDpsMeterData/master/opcodes/protocol." + version + ".map", filename);
+                Download("https://raw.githubusercontent.com/tmopcode/ShinraMeter_bata/master/resources/data/opcodes/protocol." + version + ".map", filename);
                 return true;
             }
             catch { }
