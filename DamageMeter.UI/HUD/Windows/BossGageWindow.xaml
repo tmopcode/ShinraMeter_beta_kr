@@ -14,15 +14,7 @@
                      ShowInTaskbar="False"
                      WindowStyle="None"
                      Background="Transparent"
-                     MouseRightButtonDown="Window_MouseRightButtonDown"
                      ResizeMode="NoResize" d:DataContext="{d:DesignInstance ui:MainViewModel}">
-    <!--<Window.ContextMenu>
-        <ContextMenu>
-            <MenuItem Header="Hide" 
-                      Command="{Binding SetBossGageVisibilityCommand}"
-                      CommandParameter="False"/>
-        </ContextMenu>
-    </Window.ContextMenu>-->
     <Window.Resources>
         <DataTemplate x:Key="BossGageDataTemplate">
             <controls:BossGage />
