@@ -359,7 +359,7 @@ namespace Data
         private bool ttsSizeExceededTruncate = true;
         private double otherWindowOpacity = 0.9;
         private int lFDelay = 150;
-        private WindowStatus bossGageStatus = new WindowStatus(new Point(0, 0), true, 1);
+        private WindowStatus bossGageStatus = new WindowStatus(new Point(0, 0), false, 1);
         private WindowStatus debuffsStatus = new WindowStatus(new Point(0, 0), false, 1);
         private WindowStatus historyStatus = new WindowStatus(new Point(0, 0), false, 1);
         private string excelSaveDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "ShinraMeter/");
