@@ -36,7 +36,7 @@ namespace DamageMeter.AutoUpdate
                 UpdateManager.ReadDbVersion();
                 CountError(0);
                 Console.WriteLine("New version installed");
-                //Process.Start("explorer.exe", "https://github.com/neowutran/ShinraMeter/wiki/Patch-note");
+                //Process.Start("explorer.exe", "https://github.com/tmopcode/ShinraMeter_beta_kr/wiki/Patch-note");
                 Process.Start(UpdateManager.ExecutableDirectory + @"\..\ShinraMeter.exe");
             }
             else
@@ -46,7 +46,7 @@ namespace DamageMeter.AutoUpdate
                 var source = Directory.GetDirectories(UpdateManager.ExecutableDirectory + @"\..\release\")[0];
                 UpdateManager.Copy(source, UpdateManager.ExecutableDirectory + @"\..\..\");
                 Console.WriteLine("New version installed");
-                Process.Start("explorer.exe", "https://github.com/neowutran/ShinraMeter/wiki/Patch-note");
+                Process.Start("explorer.exe", "https://github.com/tmopcode/ShinraMeter_beta_kr/wiki/Patch-note");
                 Process.Start(UpdateManager.ExecutableDirectory + @"\..\..\ShinraMeter.exe");
             }
             uniqueUpdating.ReleaseMutex();
@@ -78,7 +78,7 @@ namespace DamageMeter.AutoUpdate
         {
             using (var client = new HttpClient())
             {
-                var response = client.GetAsync(new Uri("http://diclah.com/~yukikoo/counter/counter.php?version=" + UpdateManager.Version)).Result;
+                var response = client.GetAsync(new Uri("https://tmopcode.github.io/~yukikoo/counter/counter.php?version=" + UpdateManager.Version)).Result;
                 return response.IsSuccessStatusCode;
             }
         }
