@@ -164,7 +164,7 @@ namespace DamageMeter.UI
         private static async Task<bool> CheckUpdate()
         {
             SplashScreen.SetText("Checking for updates...");
-            //return false; //TODO: re-enable
+            return false; //TODO: re-enable
             var isUpToDate = await UpdateManager.IsUpToDate().ConfigureAwait(false);
             if (isUpToDate) { return false; }
 
