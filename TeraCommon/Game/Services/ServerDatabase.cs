@@ -12,7 +12,7 @@ namespace Tera.Game
 
         public ServerDatabase(string folder)
         {
-            _serverlist = File.ReadAllLines(Path.Combine(folder, "servers_auto.txt"))
+            _serverlist = File.ReadAllLines(Path.Combine(folder, "servers.txt"))
                 .Where(s => !string.IsNullOrWhiteSpace(s))
                 .Select(s => s.Split(new[] {' '}, 4))
                 .Select(
