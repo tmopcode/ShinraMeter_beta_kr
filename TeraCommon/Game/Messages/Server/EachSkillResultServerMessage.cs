@@ -30,9 +30,10 @@ namespace Tera.Game.Messages
             TemplateId = reader.ReadInt32();
 
             SkillId = new SkillId(reader).Id;
-            if (reader.Factory.ReleaseVersion >= 11001) { //todo: override for 99.01 
+            if (reader.Factory.ReleaseVersion >= 11001 || reader.Factory.ReleaseVersion == 9901 ) {
                 var originalSkillId = new SkillId(reader).Id;
-                if (originalSkillId != 0) SkillId = originalSkillId; //not sure what is originalSkillId, but ingame meter use it in this way. todo: look at it later if they implement something new.
+                //if (originalSkillId != 0) SkillId = originalSkillId; //not sure what is originalSkillId, but ingame meter use it in this way. todo: look at it later if they implement something new.
+                //seems it contains base skill id to simplify official meter DC queries, not needed here.
             }
             HitId = reader.ReadInt32(); //index in TargetingList (NOT id) - See DataCenter.SkillData
             Unknow2 = reader.ReadBytes(12); //index in area, id, time
