@@ -4,7 +4,11 @@
                     xmlns:extensions="clr-namespace:Nostrum.Extensions;assembly=Nostrum"
                     xmlns:controls="clr-namespace:Nostrum.Controls;assembly=Nostrum" 
                     xmlns:ui="clr-namespace:DamageMeter.UI">
-
+    <Style x:Key="tcc_text" TargetType="TextBlock">
+        <Setter Property="UseLayoutRounding" Value="True" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="Foreground" Value="#bbffffff" />
+    </Style>
     <!--#region Path -->
     <Style TargetType="Path" x:Key="PathBaseStyle">
         <Setter Property="Fill" Value="White" />

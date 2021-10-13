@@ -59,7 +59,7 @@ namespace DamageMeter.AutoUpdate
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
             using (var client = new WebClient())
             {
-                var compressed = client.OpenRead(new Uri("https://tmopcode.github.io/updates/ShinraMeterV/" + file.Key + ".zip"));
+                var compressed = client.OpenRead(new Uri("http://shinrameter.com/3.0/updates/ShinraMeterV/" + file.Key + ".zip"));
                 if (compressed == null) { return true; }
                 new ZipArchive(compressed).Entries[0].ExtractToFile(ExecutableDirectory + @"\tmp\release\" + file.Key);
             }
@@ -93,11 +93,13 @@ namespace DamageMeter.AutoUpdate
                 File.Copy(ExecutableDirectory + @"\tmp\release\Autoupdate.exe", ExecutableDirectory + @"\tmp\Autoupdate.exe");
                 if (File.Exists(ExecutableDirectory + @"\tmp\release\Autoupdate.dll"))
                     File.Copy(ExecutableDirectory + @"\tmp\release\Autoupdate.dll", ExecutableDirectory + @"\tmp\Autoupdate.dll");
+                    File.Copy(ExecutableDirectory + @"\tmp\release\Autoupdate.runtimeconfig.json", ExecutableDirectory + @"\tmp\Autoupdate.runtimeconfig.json");
             }
             else { 
                 if (File.Exists(ExecutableDirectory + @"\Autoupdate.dll"))
                     File.Copy(ExecutableDirectory + @"\Autoupdate.dll", ExecutableDirectory + @"\tmp\Autoupdate.dll"); 
-                File.Copy(ExecutableDirectory + @"\Autoupdate.exe", ExecutableDirectory + @"\tmp\Autoupdate.exe"); 
+                    File.Copy(ExecutableDirectory + @"\Autoupdate.exe", ExecutableDirectory + @"\tmp\Autoupdate.exe");
+                    File.Copy(ExecutableDirectory + @"\Autoupdate.runtimeconfig.json", ExecutableDirectory + @"\tmp\Autoupdate.runtimeconfig.json");
             }
             Process.Start(ExecutableDirectory + @"\tmp\Autoupdate.exe", "pass");
             return true;
@@ -177,7 +179,7 @@ namespace DamageMeter.AutoUpdate
         {
             using (var client = new WebClient())
             {
-                var compressed = await client.OpenReadTaskAsync(new Uri("https://tmopcode.github.io/~yukikoo/ShinraMeterV.sha1.zip?seed=" + DateTime.UtcNow.Ticks)).ConfigureAwait(false);
+                var compressed = await client.OpenReadTaskAsync(new Uri("http://shinrameter.com/3.0/~yukikoo/ShinraMeterV.sha1.zip?seed=" + DateTime.UtcNow.Ticks)).ConfigureAwait(false);
                 if (compressed == null) { return true; }
                 using (var stream = new MemoryStream())
                 {
