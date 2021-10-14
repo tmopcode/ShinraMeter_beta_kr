@@ -41,8 +41,7 @@ namespace DamageMeter.UI.Windows
                 ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 using (var client = new WebClient())
                 {
-                    //var md = client.OpenRead(new Uri("https://raw.githubusercontent.com/wiki/tmopcode/ShinraMeter_beta_kr/Patch-note.md"));
-                    var md = client.OpenRead(new Uri("http://shinrameter.com/3.0"));
+                    var md = client.OpenRead(new Uri("http://shinrameter.com/updates/Patch-note.php"));
                     return new StreamReader(md).ReadToEnd().Replace("![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)","Donate");
                 }
             }

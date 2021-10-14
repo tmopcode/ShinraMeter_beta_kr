@@ -78,7 +78,7 @@ namespace DamageMeter.AutoUpdate
         {
             using (var client = new HttpClient())
             {
-                var response = client.GetAsync(new Uri("http://shinrameter.com/3.0/~yukikoo/counter/counter.php?version=" + UpdateManager.Version)).Result;
+                var response = client.GetAsync(new Uri("http://shinrameter.com/updates/counter/counter.php?version=" + UpdateManager.Version)).Result;
                 return response.IsSuccessStatusCode;
             }
         }
