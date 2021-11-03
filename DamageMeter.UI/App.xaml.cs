@@ -8,6 +8,7 @@ using Lang;
 using log4net;
 using Microsoft.Win32;
 using System;
+using System.Collections;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
@@ -54,6 +55,7 @@ namespace DamageMeter.UI
         {
             // 111
             ServerScan();
+            ServerAdd();
 
             MainDispatcher = Dispatcher.CurrentDispatcher;
             bool notUpdating;
@@ -262,11 +264,18 @@ namespace DamageMeter.UI
         {
             Process p = new();
             string ipstring;
-            string server_txt = @"resources\data\servers_auto.txt";
+            string server_txt = @"resources\data\servers_test.txt";
+            string server_auto = @"resources\data\servers_auto.txt";
 
             if (File.Exists(server_txt) == false)
             {
                 StreamWriter textWrite = File.CreateText(server_txt);
+                textWrite.Dispose();
+            }
+
+            if (File.Exists(server_auto) == false)
+            {
+                StreamWriter textWrite = File.CreateText(server_auto);
                 textWrite.Dispose();
             }
 
@@ -291,8 +300,43 @@ namespace DamageMeter.UI
                 ipstring = output;
                 p.Close();
 
-                using StreamWriter outputFile = new StreamWriter(server_txt, true);
+                using StreamWriter outputFile = new StreamWriter(server_auto, true);
                 outputFile.WriteLine(ipstring);
+            }
+
+            catch (Exception)
+            {
+                //
+            }
+        }
+
+        public static void ServerAdd()
+        {
+            try
+            {
+                if (File.Exists(@"resources\data\servers_test.txt"))
+                {
+                    File.Delete(@"resources\data\servers_test.txt");
+                }
+
+                //Test Code
+                ArrayList fileArray = new ArrayList();
+
+                using (StreamWriter writer = File.CreateText(@"resources\data\servers_test.txt"))
+                {
+
+                    using (StreamReader reader = File.OpenText(@"resources\data\servers.txt"))
+                    {
+                        writer.Write(reader.ReadToEnd());
+                        writer.Dispose();
+                    }
+
+                    using (StreamReader reader = File.OpenText(@"resources\data\servers_auto.txt"))
+                    {
+                        writer.Write(reader.ReadToEnd());
+                        writer.Dispose();
+                    }
+                }
             }
 
             catch (Exception)
