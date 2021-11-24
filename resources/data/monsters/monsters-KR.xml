@@ -19442,7 +19442,7 @@
 		<Monster name="호아르 투르칸" id="30011" isBoss="False" hp="10000" speciesId="0" />
 		<Monster name="듀리온" id="30050" isBoss="False" hp="10000" speciesId="2" />
 	</Zone>
-	<Zone id="3108" name="unknown" >
+	<Zone id="3108" name="저주받은 안타로스의 심연" >
 		<Monster name="저주받은 안타로스" id="1000" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="차원의 마법석" id="1502" isBoss="False" hp="0" speciesId="0" />
 		<Monster name="차원의 마법석" id="1503" isBoss="False" hp="0" speciesId="0" />
