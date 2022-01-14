@@ -494,6 +494,8 @@
 250920	Common	Common	Archer	폭발 덫 화살 V	False		icon_skills.explosiontraparrow_tex
 251000	Common	Common	Archer	폭발 덫 화살 X	False		icon_skills.explosiontraparrow_tex
 251020	Common	Common	Archer	폭발 덫 화살 V	False		icon_skills.explosiontraparrow_tex
+251030	Common	Common	Archer	폭발 덫 발사	False		icon_skills.TEST_tex
+251031	Common	Common	Archer	폭발 덫 발사	False		icon_skills.TEST_tex
 260100	Common	Common	Archer	뇌룡의 일격 I	False		icon_skills.thunderdrake_tex
 260200	Common	Common	Archer	뇌룡의 일격 II	False		icon_skills.thunderdrake_tex
 280100	Common	Common	Archer	집중 자세 : 신중 I			icon_skills.focusstance_moveslow_tex
@@ -554,16 +556,16 @@
 360222	Common	Common	Archer	광풍살 I	False	hit 2	icon_skills.eyeoftyphoon_tex
 360223	Common	Common	Archer	광풍살 I	False		icon_skills.eyeoftyphoon_tex
 360224	Common	Common	Archer	광풍살 I	False		icon_skills.eyeoftyphoon_tex
-370100	Common	Common	Archer	환영 화살		False		icon_skills.shadowarrow_tex
-370120	Common	Common	Archer	환영 화살		False		icon_skills.shadowarrow_tex
-380100	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380121	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380130	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380131	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380132	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380133	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380134	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
-380135	Common	Common	Archer	환영 폭발		False		icon_skills.shadowarrowexplosion_tex
+370100	Common	Common	Archer	환영 화살		False		icon_skills.TEST_tex
+370120	Common	Common	Archer	환영 화살		False		icon_skills.TEST_tex
+380100	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380121	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380130	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380131	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380132	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380133	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380134	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
+380135	Common	Common	Archer	환영 폭발		False		icon_skills.TEST_tex
 9100100	Common	Common	Archer	각성의 기운	False		icon_skills.awakenaura_tex
 10100	Common	Common	Berserker	연속 공격 I	False	hit 1	icon_skills.comboattack_tex
 10101	Common	Common	Berserker	연속 공격 I	False	hit 2	icon_skills.comboattack_tex
@@ -4889,11 +4891,18 @@
 270100	Common	Common	Slayer	섬단	False	hit 1	icon_skills.slidingslash_tex
 270130	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
 270131	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
+270150	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
+270151	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
+270152	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
 270190	Common	Common	Slayer	섬단	False		icon_skills.slidingslash_tex
 280100	Common	Common	Slayer	거합	False		icon_skills.drawsword_tex
 280101	Common	Common	Slayer	거합	False		icon_skills.drawsword_tex
 280102	Common	Common	Slayer	거합	False		icon_skills.drawsword_tex
 280103	Common	Common	Slayer	거합	False		icon_skills.drawsword_tex
+300112	Common	Common	Slayer	회전 연격		False		icon_skills.TEST_tex
+300121	Common	Common	Slayer	회전 연격		False		icon_skills.TEST_tex
+300131	Common	Common	Slayer	회전 연격		False		icon_skills.TEST_tex
+310131	Common	Common	Slayer	도약 격파		False		icon_skills.TEST_tex
 9100100	Common	Common	Slayer	각성의 기운	False		icon_skills.awakenaura_tex
 10100	Common	Common	Sorcerer	화염구 I	False		icon_skills.fireball_tex
 10200	Common	Common	Sorcerer	화염구 II	False		icon_skills.fireball_tex

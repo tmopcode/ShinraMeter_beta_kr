@@ -19376,6 +19376,9 @@
 		<Monster name="창기사 석상" id="7000" isBoss="True" hp="12827500000" speciesId="0" />
 		<Monster name="창기사 석상" id="7001" isBoss="False" hp="225035" speciesId="0" />
 	</Zone>
+	<Zone id="3047" name="부활한 샨드라 마나이아의 전당" >
+		<Monster name="부활한 샨드라 마나이아" id="1000" isBoss="True" hp="0" speciesId="0" />
+	</Zone>
 	<Zone id="3048" name="비밀 훈련소" >
 		<Monster name="조련된 페트레" id="1000" isBoss="True" hp="286891360" speciesId="0" />
 		<Monster name="차원의 마법석" id="1501" isBoss="False" hp="10000" speciesId="0" />
