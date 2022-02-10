@@ -17396,3 +17396,7 @@
 99930001	Common	Common	Common	[무기] 서리꽃의 염원 1단계			icon_items.enchantscroll_piece01_tex
 99930002	Common	Common	Common	[무기] 서리꽃의 염원 2단계			icon_items.enchantscroll_piece01_tex
 99930003	Common	Common	Common	[무기] 서리꽃의 염원 3단계			icon_items.enchantscroll_piece01_tex
+67046329	Common	Common	Common	[장갑] 서리꽃의 눈물			icon_items.enchantscroll_piece02_tex
+67046331	Common	Common	Common	[무기] 서리꽃의 염원	False	hit 1	icon_items.enchantscroll_piece01_tex
+67046332	Common	Common	Common	[무기] 서리꽃의 염원	False	hit 2	icon_items.enchantscroll_piece01_tex
+67046333	Common	Common	Common	[무기] 서리꽃의 염원	False	hit 3	icon_items.enchantscroll_piece01_tex
