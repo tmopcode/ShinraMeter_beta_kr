@@ -3422,11 +3422,11 @@
 575004	Tippani
 575800	Open 15 Pigling Rodeo Gift Boxes.
 576001	Rootstock: Fast and Quick
-576002	Used 20 Delivery  Talismans.
-576003	Used 20 Delivery  Talismans.
+576002	Used 10 Delivery Talismans.
+576003	Used 10 Delivery Talismans.
 576004	Jhaeros
 576501	Delivery Man
-576800	Use 20 Delivery Talismans
+576800	Use 10 Delivery Talismans
 577001	Busy! So busy!
 577002	Completed the achievements listed below.
 577003	Completed the achievements listed below.
@@ -3495,13 +3495,7 @@
 588501	Weird
 588800	Use 25 Courage Talismans
 588801	Use 25 Love Talismans
-588802	Use 25 Delivery Talismans
-590001	Sealed Land Champion
-590002	[Event] Used a Sealed Land Champion token.
-590003	[Event] Used a Sealed Land Champion token.
-590004	Valkyon Federation
-590005	Sealed Land Champion
-590006	[Event] Used a Sealed Land Champion token.
+588802	Use 12 Delivery Talismans
 591001	Reached Kaia's Soul enchantment level +30 or higher
 591002	Reached Kaia's Soul enchantment level +30 or higher
 591003	Reached Kaia's Soul enchantment level +30 or higher
@@ -9159,15 +9153,15 @@
 2269004	Valkyon Federation
 2269800	Completed a level 3 or higher Elite Resonance Dungeon.
 2270001	Just Close Your Eyes and Go for It!
-2270002	Complete an Elite Resonance Dungeon within 8 minutes.
-2270003	Complete an Elite Resonance Dungeon within 8 minutes.
+2270002	Complete an Elite Resonance Dungeon within 10 minutes.
+2270003	Complete an Elite Resonance Dungeon within 10 minutes.
 2270004	Valkyon Federation
-2270800	Completed an Elite Resonance Dungeon within 8 minutes.
+2270800	Completed an Elite Resonance Dungeon within 10 minutes.
 2271001	Keep Up with Me, If You Can
-2271002	Complete an Elite Resonance Dungeon within 6 minutes.
-2271003	Complete an Elite Resonance Dungeon within 6 minutes.
+2271002	Complete an Elite Resonance Dungeon within 8 minutes.
+2271003	Complete an Elite Resonance Dungeon within 8 minutes.
 2271004	Valkyon Federation
-2271800	Completed an Elite Resonance Dungeon within 6 minutes.
+2271800	Completed an Elite Resonance Dungeon within 8 minutes.
 2272001	That Feels Good
 2272002	Successfully etch your gear with an Otherworldly Shard 1 time.
 2272003	Successfully etch your gear with an Otherworldly Shard 1 time.
@@ -9336,6 +9330,178 @@
 2303801	It's Just an Illusion!
 2303802	Désolé, Desolarus!
 2303803	Master of Repetition
+3101001	All Hellen Breaks Loose
+3101002	Defeat Slayer Hellen at the Chaos Ice Throne.
+3101003	Defeat Slayer Hellen at the Chaos Ice Throne.
+3101800	Defeat Slayer Hellen at the Chaos Ice Throne.
+3102001	When Hellen Freezes Over
+3102002	Defeat Slayer Hellen 10 times at the Chaos Ice Throne.
+3102003	Defeat Slayer Hellen 10 times at the Chaos Ice Throne.
+3102800	Defeat Slayer Hellen 10 times at the Chaos Ice Throne.
+3103001	Hellen Is Other People
+3103002	Defeat Slayer Hellen 30 times at the Chaos Ice Throne.
+3103003	Defeat Slayer Hellen 30 times at the Chaos Ice Throne.
+3103800	Defeat Slayer Hellen 30 times at the Chaos Ice Throne.
+3104001	Hellen Hath No Fury
+3104002	Defeat Slayer Hellen 50 times at the Chaos Ice Throne.
+3104003	Defeat Slayer Hellen 50 times at the Chaos Ice Throne.
+3104800	Defeat Slayer Hellen 50 times at the Chaos Ice Throne.
+3105001	Who the Hellen?
+3105002	Defeat Slayer Hellen 100 times at the Chaos Ice Throne.
+3105003	Defeat Slayer Hellen 100 times at the Chaos Ice Throne.
+3105501	Usurper
+3105800	Defeat Slayer Hellen 100 times at the Chaos Ice Throne.
+3106001	Old Faces, Strange Places
+3106002	Defeat Slayer Hellen at the Chaos Ice Throne without dying.
+3106003	Defeat Slayer Hellen at the Chaos Ice Throne without dying.
+3106800	Defeat Slayer Hellen at the Chaos Ice Throne without dying.
+3107001	Fight or Flight
+3107002	Defeat Gatekeeper Kethro at the Chaos Ice Throne without suffering the Lizard Poison effect.
+3107003	Defeat Gatekeeper Kethro at the Chaos Ice Throne without suffering the Lizard Poison effect from the first boss Mini-Lizard.
+3107800	Defeat Gatekeeper Kethro at the Chaos Ice Throne without suffering the Lizard Poison effect.
+3108001	Twinkle Toes
+3108002	Defeat Slayer Hellen at the Chaos Ice Throne without being hit by AoE attacks.
+3108003	Defeat Slayer Hellen at the Chaos Ice Throne without being hit by the Spinning Tentacle and Icestorm attacks.
+3108800	Defeat Slayer Hellen at the Chaos Ice Throne without being hit by AoE attacks.
+3109001	Back and Forth
+3109002	Receive the Underground Passage Teleport effect 50 times at the Chaos Ice Throne.
+3109003	Receive the Underground Passage Teleport effect 50 times at the Chaos Ice Throne.
+3109800	Receive the Underground Passage Teleport effect 50 times at the Chaos Ice Throne.
+3110001	My Throne!
+3110002	Complete the achievements listed below:
+3110003	Complete the achievements listed below:
+3110501	Frozen Solid
+3110800	All Hellen Breaks Loose
+3110801	When Hellen Freezes Over
+3110802	Hellen Is Other People
+3110803	Hellen Hath No Fury
+3110804	Who the Hellen?
+3110805	Old Faces, Strange Places
+3110806	Fight or Flight
+3110807	Twinkle Toes
+3110808	Back and Forth
+3111001	Chaos Ice Throne Discovered!
+3111002	Server's first to defeat Slayer Hellen at the Chaos Ice Throne.
+3111003	Server's first to defeat Slayer Hellen at the Chaos Ice Throne.
+3111501	Dethroner
+3111800	Server's first to defeat Slayer Hellen at the Chaos Ice Throne.
+3112001	Throne Gazer
+3112002	Defeat Rampaging Hellen at the Ice Throne.
+3112003	Defeat Rampaging Hellen at the Ice Throne.
+3112800	Defeat Rampaging Hellen at the Ice Throne.
+3113001	Throne Watcher
+3113002	Defeat Rampaging Hellen 10 times at the Ice Throne.
+3113003	Defeat Rampaging Hellen 10 times at the Ice Throne.
+3113800	Defeat Rampaging Hellen 10 times at the Ice Throne.
+3114001	Subject, Shmubject!
+3114002	Defeat Rampaging Hellen 30 times at the Ice Throne.
+3114003	Defeat Rampaging Hellen 30 times at the Ice Throne.
+3114800	Defeat Rampaging Hellen 30 times at the Ice Throne.
+3115001	Patient Records
+3115002	Defeat Rampaging Hellen 50 times at the Ice Throne.
+3115003	Defeat Rampaging Hellen 50 times at the Ice Throne.
+3115800	Defeat Rampaging Hellen 50 times at the Ice Throne.
+3116001	Here Lies Hellen!
+3116002	Defeat Rampaging Hellen 100 times at the Ice Throne.
+3116003	Defeat Rampaging Hellen 100 times at the Ice Throne.
+3116501	Here Lies
+3116800	Defeat Rampaging Hellen 100 times at the Ice Throne.
+3117001	Call That a Rampage?!
+3117002	Defeat Rampaging Hellen at the Ice Throne without dying.
+3117003	Defeat Rampaging Hellen at the Ice Throne without dying.
+3117800	Defeat Rampaging Hellen at the Ice Throne without dying.
+3118001	Mexican Wave!
+3118002	Receive the Chain Explosion effect 30 times at the Ice Throne.
+3118003	Receive the Chain Explosion effect 30 times in the Honor Lab at the Ice Throne.
+3118800	Receive the Chain Explosion effect 30 times at the Ice Throne.
+3119001	Stick Together...
+3119002	Defeat Rampaging Hellen at the Ice Throne without suffering the Frigid effect.
+3119003	Defeat Rampaging Hellen at the Ice Throne without being hit by the Only Together attack.
+3119800	Defeat Rampaging Hellen at the Ice Throne without suffering the Frigid effect.
+3120001	Iceproof
+3120002	Defeat Rampaging Hellen at the Ice Throne without suffering the Frostbite effect.
+3120003	Defeat Rampaging Hellen at the Ice Throne without suffering the Frostbite effect.
+3120800	Defeat Rampaging Hellen at the Ice Throne without suffering the Frostbite effect.
+3121001	Hand Over the Throne!
+3121002	Complete the achievements listed below:
+3121003	Throne Gazer&#xA;Throne Watcher&#xA;Subject, Shmubject!&#xA;Patient Records&#xA;Here Lies Hellen!&#xA;Call That a Rampage?!&#xA;Mexican Wave!&#xA;Stick Together...&#xA;Iceproof
+3121501	Frozen Solid
+3121800	Throne Gazer
+3121801	Throne Watcher
+3121802	Subject, Shmubject!
+3121803	Patient Records
+3121804	Here Lies Hellen!
+3121805	Call That a Rampage?!
+3121806	Mexican Wave!
+3121807	Stick Together...
+3121808	Iceproof
+3123001	Ice Throne Discovered!
+3123002	Server's first to defeat Rampaging Hellen at the Ice Throne.
+3123003	Server's first to defeat Rampaging Hellen at the Ice Throne.
+3123501	Throne Discoverer
+3123800	Server's first to defeat Rampaging Hellen at the Ice Throne.
+3124001	Advisor to the Queen
+3124002	Server's first to defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3124003	Server's first to defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3124501	Shandra Manaya Vanquisher
+3124800	Server's first to defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3125001	Ultimate Conqueror
+3125002	Receive each of the effects Greedy Thoughts, Hateful Thoughts, Desperate Thoughts, and Dreadful Thoughts in the Hall of the Argon Queen (Hard).
+3125003	Receive each of the effects Greedy Thoughts, Hateful Thoughts, Desperate Thoughts, and Dreadful Thoughts in the Hall of the Argon Queen (Hard).
+3125800	Greedy Thoughts
+3125801	Hateful Thoughts
+3125802	Desperate Thoughts
+3125803	Dreadful Thoughts
+3126001	Experienced Queen Slayer
+3126002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) without dying.
+3126003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) without dying.
+3126800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) without dying.
+3127001	Third Time's a Charm
+3127002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) in under 7 minutes.
+3127003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) in under 7 minutes.
+3127800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) in under 7 minutes.
+3128001	Resurrection Won't Help You!
+3128002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3128003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3128800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard).
+3129001	Resurrection Is Futile
+3129002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 10 times.
+3129003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 10 times.
+3129800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 10 times.
+3130001	Resurrection Won't Change a Thing
+3130002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 30 times.
+3130003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 30 times.
+3130800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 30 times.
+3131001	Resurrect This!
+3131002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 50 times.
+3131003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 50 times.
+3131800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 50 times.
+3132001	The End of It
+3132002	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 100 times.
+3132003	Defeat Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 100 times.
+3132501	Anti-Queen Squad
+3132800	Defeated Revivified Shandra Manaya in the Hall of the Argon Queen (Hard) 100 times.
+3133001	Try, Try Again!
+3133002	Complete the achievements listed below:
+3133003	Complete the achievements listed below:
+3133501	Queen Vanquisher
+3133800	Experienced Queen Slayer
+3133801	Third Time's a Charm
+3133802	Resurrection Won't Help You!
+3133803	Resurrection Is Futile
+3133804	Resurrection Won't Change a Thing
+3133805	Resurrect This!
+3133806	The End of It
+3201001	Shandra Manaya's Eternal Enemy
+3201002	Complete Quest: Shandra Manaya's Resurrection
+3201003	Complete Quest: Shandra Manaya's Resurrection
+3201501	Shandra Manaya's Conqueror
+3201800	Complete Quest: Shandra Manaya's Resurrection
+3202001	Leave the Ice Throne Behind
+3202002	Complete Quest: Memorial Service
+3202003	Complete Quest: Memorial Service
+3202501	Dakuryon's Enemy of Honor
+3202800	Complete Quest: Memorial Service
 5991001	First Steps in a Larger World
 5991002	Completed "To Help by Gathering."
 5991003	Completed "To Help by Gathering."
@@ -10636,6 +10802,111 @@
 40214003	Use Balderon Expedition Rear Guard Badge 2021
 40214501	My Body Is Ready
 40214800	Use Balderon Expedition Rear Guard Badge 2021
+40215001	Challenge the most powerful Dimension Master!
+40215002	Use the Dimension Master's Token to receive the "Tenacity Personified" title.
+40215003	Use a Dimension Master's Token.
+40215501	Dimension Wanderer
+40215800	Use a Dimension Master's Token.
+40216001	Challenge the Dimension Master!
+40216002	Use the Dimension Master's Token to receive the "Tough Bone" title.
+40216003	Use a Dimension Master's Token.
+40216501	Tough Bone
+40216800	Use a Dimension Master's Token.
+40217001	Become the world's best!
+40217002	Use the World's Best WDC Participant's Token to receive the "World's Best Participant 2021" title.
+40217003	Use the World's Best WDC Participant's Token.
+40217501	WDC 2021 Champion
+40217800	Use the World's Best WDC Participant's Token.
+40218001	Become the world's second best!
+40218002	Use the World's Second Best WDC Participant's Token to receive the "World's Second Best Participant 2021" title.
+40218003	Use the World's Second Best WDC Participant's Token.
+40218501	WDC 2021 2nd Place
+40218800	Use the World's Second Best WDC Participant's Token.
+40219001	Challenge the world's best!
+40219002	Use the World's Third Best WDC Participant's Token to receive the "World's Third Best Participant 2021" title.
+40219003	Use the World's Third Best WDC Participant's Token.
+40219501	WDC 2021 3rd Place
+40219800	Use the World's Third Best WDC Participant's Token.
+40220001	Become the best in South Korea!
+40220002	Use the Best WDC Participant in South Korea Token to receive the "The Best Participant 2021 in South Korea" title.
+40220003	Use the Best WDC Participant in South Korea Token.
+40220501	The Best Participant 2021 in South Korea
+40220800	Use the Best WDC Participant in South Korea Token.
+40221001	Become the second best in South Korea!
+40221002	Use the Second Best WDC Participant in South Korea Token to receive the "The Second Best Participant 2021 in South Korea" title.
+40221003	Use the Second Best WDC Participant in South Korea Token.
+40221501	The Second Best Participant 2021 in South Korea
+40221800	Use the Second Best WDC Participant in South Korea Token.
+40222001	Become the third best in South Korea!
+40222002	Use the Third Best WDC Participant in South Korea Token to receive the "The Third Best Participant 2021 in South Korea" title.
+40222003	Use the Third Best WDC Participant in South Korea Token.
+40222501	The Third Best Participant 2021 in South Korea
+40222800	Use the Third Best WDC Participant in South Korea Token.
+40223001	Become the best in Japan!
+40223002	Use the Best WDC Participant in Japan Token to receive the "The Best Participant 2021 in Japan" title.
+40223003	Use the Best WDC Participant in Japan Token.
+40223501	The Best Participant 2021 in Japan
+40223800	Use the Best WDC Participant in Japan Token.
+40224001	Become the second best in Japan!
+40224002	Use the Second Best WDC Participant in Japan Token to receive the "The Second Best Participant 2021 in Japan" title.
+40224003	Use the Second Best WDC Participant in Japan Token.
+40224501	The Second Best Participant 2021 in Japan
+40224800	Use the Second Best WDC Participant in Japan Token.
+40225001	Become the third best in Japan!
+40225002	Use the Third Best WDC Participant in Japan Token to receive the "The Third Best Participant 2021 in Japan" title.
+40225003	Use the Third Best WDC Participant in Japan Token.
+40225501	The Third Best Participant 2021 in Japan
+40225800	Use the Third Best WDC Participant in Japan Token.
+40226001	Become the best in Southeast Asia!
+40226002	Use the Best WDC Participant in Southeast Asia Token to receive the "The Best Participant 2021 in Southeast Asia" title.
+40226003	Use the Best WDC Participant in Southeast Asia Token.
+40226501	The Best Participant 2021 in Southeast Asia
+40226800	Use the Best WDC Participant in Southeast Asia Token.
+40227001	Become the second best in Southeast Asia!
+40227002	Use the Second Best WDC Participant in Southeast Asia Token to receive the "The Second Best Participant 2021 in Southeast Asia" title.
+40227003	Use the Second Best WDC Participant in Southeast Asia Token.
+40227501	The Second Best Participant 2021 in Southeast Asia
+40227800	Use the Second Best WDC Participant in Southeast Asia Token.
+40228001	Become the third best in Southeast Asia!
+40228002	Use the Third Best WDC Participant in Southeast Asia Token to receive the "The Third Best Participant 2021 in Southeast Asia" title.
+40228003	Use the Third Best WDC Participant in Southeast Asia Token.
+40228501	The Third Best Participant 2021 in Southeast Asia
+40228800	Use the Third Best WDC Participant in Southeast Asia Token.
+40229001	Become the best in North America!
+40229002	Use the Best WDC Participant in North America Token to receive the "The Best Participant 2021 in North America" title.
+40229003	Use the Best WDC Participant in North America Token.
+40229501	The Best Participant 2021 in North America
+40229800	Use the Best WDC Participant in North America Token.
+40230001	Become the second best in North America!
+40230002	Use the Second Best WDC Participant in North America Token to receive the "The Second Best Participant 2021 in North America" title.
+40230003	Use the Second Best WDC Participant in North America Token.
+40230501	The Second Best Participant 2021 in North America
+40230800	Use the Second Best WDC Participant in North America Token.
+40231001	Become the third best in North America!
+40231002	Use the Third Best WDC Participant in North America Token to receive the "The Third Best Participant 2021 in North America" title.
+40231003	Use the Third Best WDC Participant in North America Token.
+40231501	The Third Best Participant 2021 in North America
+40231800	Use the Third Best WDC Participant in North America Token.
+40232001	Become the best in Europe and Russia!
+40232002	Use the Best WDC Participant in Europe and Russia Token to receive the "The Best Participant 2021 in Europe and Russia" title.
+40232003	Use the Best WDC Participant in Europe and Russia Token.
+40232501	The Best Participant 2021 in Europe and Russia
+40232800	Use the Best WDC Participant in Europe and Russia Token.
+40233001	Become the second best in Europe and Russia!
+40233002	Use the Second Best WDC Participant in Europe and Russia Token to receive the "The Second Best Participant 2021 in Europe and Russia" title.
+40233003	Use the Second Best WDC Participant in Europe and Russia Token.
+40233501	The Second Best Participant 2021 in Europe and Russia
+40233800	Use the Second Best WDC Participant in Europe and Russia Token.
+40234001	Become the third best in Europe and Russia!
+40234002	Use the Third Best WDC Participant in Europe and Russia Token to receive the "The Third Best Participant 2021 in Europe and Russia" title.
+40234003	Use the Third Best WDC Participant in Europe and Russia Token.
+40234501	The Third Best Participant 2021 in Europe and Russia
+40234800	Use the Third Best WDC Participant in Europe and Russia Token.
+40235001	Home of the WDC Champion
+40235002	Use the Triumph Token to receive the "Glory of the Champion" title.
+40235003	Use Triumph Token.
+40235501	Glory of the Champion
+40235800	Use Triumph Token.
 53000101	Bloody God
 53000102	1-st place at the Bloody Island event (season 1)
 53000103	1-st place at the Bloody Island event (season 1)
@@ -10931,6 +11202,13 @@
 99150003	2nd or 3rd place in the current season
 99150004	Valkyon Federation
 99150501	Protector of the Sky Cruiser
+99151001	PvE Leaderboard Rewards (Chaos Ice Throne) for 1st Place: Grand Champion (BTS):
+99151002	1st Place (Season)
+99151003	1st Place (Season)
+99151501	Ruler of the Chaos Ice Throne
+99152001	PvE Leaderboard Rewards (Chaos Ice Throne) for 2nd and 3rd Place (BTS):
+99152002	2nd and 3rd Place (Season)
+99152003	2nd and 3rd Place (Season)
 99152500	TBA
 99152501	Victory in the Battle Arena!
 99152502	5th Victory in the Battle Arena!
@@ -11560,6 +11838,17 @@
 99153126	Talk to Tamur.
 99153127	Talk to Kaidun.
 99153128	Talk to Rida.
+99153129	1st Place (Season)
+99153130	2nd and 3rd Place (Season)
+99153131	PvE Leaderboard Rewards (Hall of the Argon Queen (Hard)) for 1st Place: Grand Champion (BTS):
+99153132	1st place in the current season
+99153133	1st place in the current season
+99153134	Closer to the Throne
+99153501	Shandra Manaya's Extermination
+99154001	PvE Leaderboard Rewards (Hall of the Argon Queen (Hard)) for 2nd and 3rd Place (BTS):
+99154002	2nd or 3rd place in the current season
+99154003	2nd or 3rd place in the current season
+99154501	Shandra Manaya's Obliteration
 503000001	Tourist of the Bloody Island
 503000002	Visited the Bloody Island
 503000003	Visited the Bloody Island

@@ -268,11 +268,11 @@
 50501	Sausewind
 50800	Verbrauchte Geschwindigkeitstränke:
 51001	Wer braucht schon einen Heiler?
-51002	100 Heiltränke verbraucht.
-51003	100 Heiltränke verbraucht.
+51002	100 Gesundheitstränke verbraucht.
+51003	100 Gesundheitstränke verbraucht.
 51004	Valkyon-Föderation
 51501	Heilbar{@g:er/e}
-51800	Verbrauchte Heiltränke:
+51800	Verbrauchte Gesundheitstränke: 100
 52001	Stufe 10
 52002	Stufe 10 erreicht
 52003	Stufe 10 erreicht
@@ -3422,11 +3422,11 @@
 575004	Tippani
 575800	15-mal Geschenkkiste des Ferkelrodeos verwenden
 576001	Farmerfestival: Schon unterwegs
-576002	Verwendet 20-mal Express-Abzeichen.
-576003	Verwendet 20-mal Express-Abzeichen.
+576002	Verwendet 10-mal Express-Abzeichen.
+576003	Verwendet 10-mal Express-Abzeichen.
 576004	Haroso
 576501	Lieferant
-576800	20-mal Express-Abzeichen verwenden
+576800	10-mal Express-Abzeichen verwendet.
 577001	Festival genießen, Nebenjob bewältigen – Stress!
 577002	Schließt die folgenden Fortschritte ab:
 577003	Schließt die folgenden Fortschritte ab:
@@ -3495,13 +3495,7 @@
 588501	Sonderling
 588800	25-mal Löwenherz-Abzeichen verwenden
 588801	25-mal Romantik-Abzeichen verwenden
-588802	25-mal Express-Abzeichen verwenden
-590001	Sigilluma-Wächter
-590002	[Event] Sigilluma-Wächterabzeichen verwenden
-590003	[Event] Sigilluma-Wächterabzeichen verwenden
-590004	Valkyon-Föderation
-590005	Sigilluma-Wächter
-590006	[Event] Sigilluma-Wächterabzeichen verwenden
+588802	12-mal Express-Abzeichen verwendet.
 591001	Seelenkaia-Verzauberungsstufe +30 oder höher erreicht
 591002	Seelenkaia-Verzauberungsstufe +30 oder höher erreicht
 591003	Seelenkaia-Verzauberungsstufe +30 oder höher erreicht
@@ -9145,15 +9139,15 @@
 2269004	Valkyon-Föderation
 2269800	Hat einen Elite-Resonanz-Dungeon der Stufe 3 oder höher abgeschlossen.
 2270001	Augen zu und durch.
-2270002	Schließt einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten ab.
-2270003	Schließt einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten ab.
+2270002	Schließt einen Elite-Resonanz-Dungeon innerhalb von 10 Minuten ab.
+2270003	Schließt einen Elite-Resonanz-Dungeon innerhalb von 10 Minuten ab.
 2270004	Valkyon-Föderation
-2270800	Hat einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten abgeschlossen.
+2270800	Hat einen Elite-Resonanz-Dungeon innerhalb von 10 Minuten abgeschlossen.
 2271001	Folgt mir, wenn Ihr könnt.
-2271002	Schließt einen Elite-Resonanz-Dungeon innerhalb von 6 Minuten ab.
-2271003	Schließt einen Elite-Resonanz-Dungeon innerhalb von 6 Minuten ab.
+2271002	Schließt einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten ab.
+2271003	Schließt einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten ab.
 2271004	Valkyon-Föderation
-2271800	Hat einen Elite-Resonanz-Dungeon innerhalb von 6 Minuten abgeschlossen.
+2271800	Hat einen Elite-Resonanz-Dungeon innerhalb von 8 Minuten abgeschlossen.
 2272001	Das fühlt sich gut an.
 2272002	Graviert 1-mal erfolgreich Eure Ausrüstung mit einem Dimensionsfragment.
 2272003	Graviert 1-mal erfolgreich Eure Ausrüstung mit einem Dimensionsfragment.
@@ -9322,6 +9316,178 @@
 2303801	Worauf schießt Ihr? Das ist nur eine Illusion!
 2303802	Die Aufgaben von Desolarus sind ein Kinderspiel.
 2303803	Meister der Wiederholung
+3101001	Ungeheuerlich
+3101002	Besiegt "Zerstörerische Helene" 1-mal am Chaos-Eisthron.
+3101003	Besiegt "Zerstörerische Helene" 1-mal am Chaos-Eisthron.
+3101800	Besiegt "Zerstörerische Helene" 1-mal am Chaos-Eisthron.
+3102001	Ungeheuerliches Beben
+3102002	Besiegt "Zerstörerische Helene" 10-mal am Chaos-Eisthron.
+3102003	Besiegt "Zerstörerische Helene" 10-mal am Chaos-Eisthron.
+3102800	Besiegt "Zerstörerische Helene" 10-mal am Chaos-Eisthron.
+3103001	Wer ist Helene?
+3103002	Besiegt "Zerstörerische Helene" 30-mal am Chaos-Eisthron.
+3103003	Besiegt "Zerstörerische Helene" 30-mal am Chaos-Eisthron.
+3103800	Besiegt "Zerstörerische Helene" 30-mal am Chaos-Eisthron.
+3104001	Helene-Kenner
+3104002	Besiegt "Zerstörerische Helene" 50-mal am Chaos-Eisthron.
+3104003	Besiegt "Zerstörerische Helene" 50-mal am Chaos-Eisthron.
+3104800	Besiegt "Zerstörerische Helene" 50-mal am Chaos-Eisthron.
+3105001	Helene-Missachter
+3105002	Besiegt "Zerstörerische Helene" 100-mal am Chaos-Eisthron.
+3105003	Besiegt "Zerstörerische Helene" 100-mal am Chaos-Eisthron.
+3105501	Thron-Räuber
+3105800	Besiegt "Zerstörerische Helene" 100-mal am Chaos-Eisthron.
+3106001	Fremd und vertraut zugleich
+3106002	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne zu sterben.
+3106003	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne zu sterben.
+3106800	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne zu sterben.
+3107001	Töten oder fliehen
+3107002	Besiegt "Torwächter Kethro" am Chaos-Eisthron, ohne den Effekt "Eidechsen-Gift" zu erleiden.
+3107003	Besiegt "Torwächter Kethro" am Chaos-Eisthron, ohne den Effekt "Eidechsen-Gift" vom 1. Bossmonster Mini-Eidechse zu erleiden.
+3107800	Besiegt "Torwächter Kethro" am Chaos-Eisthron, ohne den Effekt "Eidechsen-Gift" zu erleiden.
+3108001	Flinke Bewegung
+3108002	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne vom Plattenangriff getroffen zu werden.
+3108003	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne vom rotierenden Tentakelangriff und Eissturm-Angriff getroffen zu werden.
+3108800	Besiegt "Zerstörerische Helene" am Chaos-Eisthron, ohne vom Plattenangriff getroffen zu werden.
+3109001	Hin und her
+3109002	Erlebt 50-mal den Effekt "Untergrundpfad-Teleport" am Chaos-Eisthron.
+3109003	Erlebt 50-mal den Effekt "Untergrundpfad-Teleport" am Chaos-Eisthron.
+3109800	Erlebt 50-mal den Effekt "Untergrundpfad-Teleport" am Chaos-Eisthron.
+3110001	Mein Thron!
+3110002	Schließt folgende Fortschritte ab:
+3110003	Schließt folgende Fortschritte ab:
+3110501	Festgefroren
+3110800	Ungeheuerlich
+3110801	Ungeheuerliches Beben
+3110802	Wer ist Helene?
+3110803	Helene-Kenner
+3110804	Helene-Missachter
+3110805	Fremd und vertraut zugleich
+3110806	Töten oder fliehen
+3110807	Flinke Bewegung
+3110808	Hin und her
+3111001	Chaos-Eisthron entdeckt!
+3111002	Besiegt als Erster auf dem Server "Zerstörerische Helene" am Chaos-Eisthron.
+3111003	Besiegt als Erster auf dem Server "Zerstörerische Helene" am Chaos-Eisthron.
+3111501	Thron-Sichter
+3111800	Besiegt als Erster auf dem Server "Zerstörerische Helene" am Chaos-Eisthron.
+3112001	Thron-Gaffer
+3112002	Besiegt "Tobende Helene" 1-mal am Eisthron.
+3112003	Besiegt "Tobende Helene" 1-mal am Eisthron.
+3112800	Besiegt "Tobende Helene" 1-mal am Eisthron.
+3113001	Thron-Beobachter
+3113002	Besiegt "Tobende Helene" 10-mal am Eisthron.
+3113003	Besiegt "Tobende Helene" 10-mal am Eisthron.
+3113800	Besiegt "Tobende Helene" 10-mal am Eisthron.
+3114001	Neues Testobjekt?
+3114002	Besiegt "Tobende Helene" 30-mal am Eisthron.
+3114003	Besiegt "Tobende Helene" 30-mal am Eisthron.
+3114800	Besiegt "Tobende Helene" 30-mal am Eisthron.
+3115001	Vergangenheit des Testobjekts
+3115002	Besiegt "Tobende Helene" 50-mal am Eisthron.
+3115003	Besiegt "Tobende Helene" 50-mal am Eisthron.
+3115800	Besiegt "Tobende Helene" 50-mal am Eisthron.
+3116001	Ruhe in Frieden!
+3116002	Besiegt "Tobende Helene" 100-mal am Eisthron.
+3116003	Besiegt "Tobende Helene" 100-mal am Eisthron.
+3116501	Hic situs est ...
+3116800	Besiegt "Tobende Helene" 100-mal am Eisthron.
+3117001	Der reine Wahnsinn
+3117002	Besiegt "Tobende Helene" am Eisthron, ohne zu sterben.
+3117003	Besiegt "Tobende Helene" am Eisthron, ohne zu sterben.
+3117800	Besiegt "Tobende Helene" am Eisthron, ohne zu sterben.
+3118001	La-Ola-Welle!
+3118002	Erlebt 30-mal den Effekt "Verkettungsexplosion" am Eisthron.
+3118003	Erlebt 30-mal den Effekt "Verkettungsexplosion" im Ehrenlabor am Eisthron.
+3118800	Erlebt 30-mal den Effekt "Verkettungsexplosion" am Eisthron.
+3119001	Zusammen bleiben ...
+3119002	Besiegt "Tobende Helene" am Eisthron, ohne den Effekt "Extreme Kälte" zu erleiden.
+3119003	Besiegt "Tobende Helene" am Eisthron, ohne vom "Nur zusammen"-Angriff getroffen zu werden.
+3119800	Besiegt "Tobende Helene" am Eisthron, ohne den Effekt "Extreme Kälte" zu erleiden.
+3120001	Kälteresistent
+3120002	Besiegt "Tobende Helene" am Eisthron, ohne den Effekt "Frost" zu erleiden.
+3120003	Besiegt "Tobende Helene" am Eisthron, ohne den Effekt "Frost" zu erleiden.
+3120800	Besiegt "Tobende Helene" am Eisthron, ohne den Effekt "Frost" zu erleiden.
+3121001	Gib mir den Thron!
+3121002	Schließt folgende Fortschritte ab:
+3121003	Thron-Gaffer&#xA;Thron-Beobachter&#xA;Neues Testobjekt?&#xA;Vergangenheit des Testobjekts&#xA;Ruhe in Frieden!&#xA;Der reine Wahnsinn&#xA;La-Ola-Welle!&#xA;Zusammen bleiben ...&#xA;Kälteresistent
+3121501	Festgefroren
+3121800	Thron-Gaffer
+3121801	Thron-Beobachter
+3121802	Neues Testobjekt?
+3121803	Vergangenheit des Testobjekts
+3121804	Ruhe in Frieden!
+3121805	Der reine Wahnsinn
+3121806	La-Ola-Welle!
+3121807	Zusammen bleiben ...
+3121808	Kälteresistent
+3123001	Eisthron entdeckt!
+3123002	Besiegt als erster Spieler auf dem Server "Tobende Helene" am Eisthron.
+3123003	Besiegt als erster Spieler auf dem Server "Tobende Helene" am Eisthron.
+3123501	Thron-Entdecker
+3123800	Besiegt als erster Spieler auf dem Server "Tobende Helene" am Eisthron.
+3124001	Berater der Königin
+3124002	Besiegt als erster Spieler auf dem Server "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)".
+3124003	Besiegt als erster Spieler auf dem Server "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)".
+3124501	Shandra-Manaya-Bezwinger
+3124800	Als erster Spieler auf dem Server "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)" besiegt
+3125001	Alles-Besieger
+3125002	Erlebt jeweils 1-mal den Effekt von "Gierige Gedanken", "Abscheuliche Gedanken", "Verzweifelte Gedanken" und "Fürchterliche Gedanken" in "Halle der Shandra Manaya (schwierig)".
+3125003	Erlebt jeweils 1-mal den Effekt von "Gierige Gedanken", "Abscheuliche Gedanken", "Verzweifelte Gedanken" und "Fürchterliche Gedanken" in "Halle der Shandra Manaya (schwierig)".
+3125800	Gierige Gedanken
+3125801	Abscheuliche Gedanken
+3125802	Verzweifelte Gedanken
+3125803	Fürchterliche Gedanken
+3126001	Erfahrener Königinnentöter
+3126002	Besiegt "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)", ohne zu sterben.
+3126003	Besiegt "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)", ohne zu sterben.
+3126800	"Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)" besiegt, ohne zu sterben
+3127001	Aller guten Dinge sind drei
+3127002	Besiegt "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)" innerhalb von 7 Minuten.
+3127003	Besiegt "Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)" innerhalb von 7 Minuten.
+3127800	"Wiederbelebte Shandra Manaya" in "Halle der Shandra Manaya (schwierig)" innerhalb von 7 Minuten besiegt
+3128001	Wiederbelebung bringt Euch nichts!
+3128002	Besiegt "Wiederbelebte Shandra Manaya" 1-mal in "Halle der Shandra Manaya (schwierig)".
+3128003	Besiegt "Wiederbelebte Shandra Manaya" 1-mal in "Halle der Shandra Manaya (schwierig)".
+3128800	"Wiederbelebte Shandra Manaya" 1-mal in "Halle der Shandra Manaya (schwierig)" besiegt
+3129001	Sinnlose Wiederbelebung
+3129002	Besiegt "Wiederbelebte Shandra Manaya" 10-mal in "Halle der Shandra Manaya (schwierig)".
+3129003	Besiegt "Wiederbelebte Shandra Manaya" 10-mal in "Halle der Shandra Manaya (schwierig)".
+3129800	"Wiederbelebte Shandra Manaya" 10-mal in "Halle der Shandra Manaya (schwierig)" besiegt
+3130001	Wiederbelebung ändert nichts
+3130002	Besiegt "Wiederbelebte Shandra Manaya" 30-mal in "Halle der Shandra Manaya (schwierig)".
+3130003	Besiegt "Wiederbelebte Shandra Manaya" 30-mal in "Halle der Shandra Manaya (schwierig)".
+3130800	"Wiederbelebte Shandra Manaya" 30-mal in "Halle der Shandra Manaya (schwierig)" besiegt
+3131001	Wiederbelebungs-Immunist
+3131002	Besiegt "Wiederbelebte Shandra Manaya" 50-mal in "Halle der Shandra Manaya (schwierig)".
+3131003	Besiegt "Wiederbelebte Shandra Manaya" 50-mal in "Halle der Shandra Manaya (schwierig)".
+3131800	"Wiederbelebte Shandra Manaya" 50-mal in "Halle der Shandra Manaya (schwierig)" besiegt
+3132001	Immun gegen alles
+3132002	Besiegt "Wiederbelebte Shandra Manaya" 100-mal in "Halle der Shandra Manaya (schwierig)".
+3132003	Besiegt "Wiederbelebte Shandra Manaya" 100-mal in "Halle der Shandra Manaya (schwierig)".
+3132501	Anti-Königin-Clique
+3132800	"Wiederbelebte Shandra Manaya" 100-mal in "Halle der Shandra Manaya (schwierig)" besiegt
+3133001	Probiert es erneut!
+3133002	Schließt folgende Fortschritte ab:
+3133003	Schließt folgende Fortschritte ab:
+3133501	Königin-Bezwinger
+3133800	Erfahrener Königinnentöter
+3133801	Aller guten Dinge sind drei
+3133802	Wiederbelebung bringt Euch nichts!
+3133803	Sinnlose Wiederbelebung
+3133804	Wiederbelebung ändert nichts
+3133805	Wiederbelebungs-Immunist
+3133806	Immun gegen alles
+3201001	Ewiger Feind von Shandra Manaya
+3201002	Quest abschließen: Shandra Manayas Wiederbelebung
+3201003	Quest abschließen: Shandra Manayas Wiederbelebung
+3201501	Sieger über Shandra Manaya
+3201800	Quest abschließen: Shandra Manayas Wiederbelebung
+3202001	Eisthron hinter sich lassen
+3202002	Quest abschließen: Gedenkfeier
+3202003	Quest abschließen: Gedenkfeier
+3202501	Durions Ehrenfeind
+3202800	Quest abschließen: Gedenkfeier
 5991001	Erste Schritte in einer größeren Welt
 5991002	Quest abschließen: "Sammeln, um zu helfen"
 5991003	Quest abschließen: "Sammeln, um zu helfen"
@@ -10567,6 +10733,111 @@
 40214003	Abzeichen der Nachhut der Balderon-Expedition 2021 verwenden
 40214501	Mein Körper ist bereit
 40214800	Abzeichen der Nachhut der Balderon-Expedition 2021 verwenden
+40215001	Fordert den stärksten Dimensionsmeister heraus!
+40215002	Verwendet das Abzeichen des Dimensionsmeisters, um den Titel "Beharrlichkeit in Person" zu erhalten.
+40215003	Abzeichen des Dimensionsmeisters verwendet.
+40215501	Dimensionswanderer
+40215800	Abzeichen des Dimensionsmeisters verwendet.
+40216001	Fordert den Dimensionsmeister heraus!
+40216002	Verwendet das Abzeichen des Dimensionsmeisters, um den Titel "Zäher Knochen" zu erhalten.
+40216003	Abzeichen des Dimensionsmeisters verwendet.
+40216501	Zäher Knochen
+40216800	Abzeichen des Dimensionsmeisters verwendet.
+40217001	Aufstieg zu den Weltbesten!
+40217002	Verwendet das Abzeichen des weltbesten WDH-Teilnehmers, um den Titel [Der weltbeste Herausforderer 2021] zu erhalten.
+40217003	Das Abzeichen des weltbesten WDH-Teilnehmers verwenden.
+40217501	Sieger der WDH 2021
+40217800	Das Abzeichen des weltbesten WDH-Teilnehmers verwenden.
+40218001	Aufstieg zu den Zweitbesten der Welt!
+40218002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers, um den Titel [Der zweitbeste Herausforderer 2021 weltweit] zu erhalten.
+40218003	Das Abzeichen des zweitbesten WDH-Teilnehmers der Welt verwenden.
+40218501	2. Gewinner der WDH 2021
+40218800	Das Abzeichen des zweitbesten WDH-Teilnehmers der Welt verwenden.
+40219001	Stellt Euch der Herausforderung der Weltbesten!
+40219002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers, um den Titel [Der drittbeste Herausforderer 2021 weltweit] zu erhalten.
+40219003	Das Abzeichen des drittbesten WDH-Teilnehmers der Welt verwenden.
+40219501	3. Gewinner der WDH 2021
+40219800	Das Abzeichen des drittbesten WDH-Teilnehmers der Welt verwenden.
+40220001	Aufstieg zu den Besten in Südkorea!
+40220002	Verwendet das Abzeichen des besten WDH-Teilnehmers in Südkorea, um den Titel [Der beste Herausforderer 2021 in Südkorea] zu erhalten.
+40220003	Abzeichen des besten WDH-Teilnehmers in Südkorea verwenden
+40220501	Der beste Herausforderer 2021 in Südkorea
+40220800	Abzeichen des besten WDH-Teilnehmers in Südkorea verwenden
+40221001	Aufstieg zu den Zweitbesten in Südkorea!
+40221002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers in Südkorea, um den Titel [Der zweitbeste Herausforderer 2021 in Südkorea] zu erhalten.
+40221003	Abzeichen des zweitbesten WDH-Teilnehmers in Südkorea verwenden
+40221501	Der zweitbeste Herausforderer 2021 in Südkorea
+40221800	Abzeichen des zweitbesten WDH-Teilnehmers in Südkorea verwenden
+40222001	Aufstieg zu den Drittbesten in Südkorea!
+40222002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers in Südkorea, um den Titel [Der drittbeste Herausforderer 2021 in Südkorea] zu erhalten.
+40222003	Abzeichen des drittbesten WDH-Teilnehmers in Südkorea verwenden
+40222501	Der drittbeste Herausforderer 2021 in Südkorea
+40222800	Abzeichen des drittbesten WDH-Teilnehmers in Südkorea verwenden
+40223001	Aufstieg zu den Besten in Japan!
+40223002	Verwendet das Abzeichen des besten WDH-Teilnehmers in Japan, um den Titel [Der beste Herausforderer 2021 in Japan] zu erhalten.
+40223003	Abzeichen des besten WDH-Teilnehmers in Japan verwenden
+40223501	Der beste Herausforderer 2021 in Japan
+40223800	Abzeichen des besten WDH-Teilnehmers in Japan verwenden
+40224001	Aufstieg zu den Zweitbesten in Japan!
+40224002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers in Japan, um den Titel [Der zweitbeste Herausforderer 2021 in Japan] zu erhalten.
+40224003	Abzeichen des zweitbesten WDH-Teilnehmers in Japan verwenden
+40224501	Der zweitbeste Herausforderer 2021 in Japan
+40224800	Abzeichen des zweitbesten WDH-Teilnehmers in Japan verwenden
+40225001	Aufstieg zu den Drittbesten in Japan!
+40225002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers in Japan, um den Titel [Der drittbeste Herausforderer 2021 in Japan] zu erhalten.
+40225003	Abzeichen des drittbesten WDH-Teilnehmers in Japan verwenden
+40225501	Der drittbeste Herausforderer 2021 in Japan
+40225800	Abzeichen des drittbesten WDH-Teilnehmers in Japan verwenden
+40226001	Aufstieg zu den Besten in Südostasien!
+40226002	Verwendet das Abzeichen des besten WDH-Teilnehmers in Südostasien, um den Titel [Der beste Herausforderer 2021 in Südostasien] zu erhalten.
+40226003	Abzeichen des besten WDH-Teilnehmers in Südostasien verwenden
+40226501	Der beste Herausforderer 2021 in Südostasien
+40226800	Abzeichen des besten WDH-Teilnehmers in Südostasien verwenden
+40227001	Aufstieg zu den Zweitbesten in Südostasien!
+40227002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers in Südostasien, um den Titel [Der zweitbeste Herausforderer 2021 in Südostasien] zu erhalten.
+40227003	Abzeichen des zweitbesten WDH-Teilnehmers in Südostasien verwenden
+40227501	Der zweitbeste Herausforderer 2021 in Südostasien
+40227800	Abzeichen des zweitbesten WDH-Teilnehmers in Südostasien verwenden
+40228001	Aufstieg zu den Drittbesten in Südostasien!
+40228002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers in Südostasien, um den Titel [Der drittbeste Herausforderer 2021 in Südostasien] zu erhalten.
+40228003	Abzeichen des drittbesten WDH-Teilnehmers in Südostasien verwenden
+40228501	Der drittbeste Herausforderer 2021 in Südostasien
+40228800	Abzeichen des drittbesten WDH-Teilnehmers in Südostasien verwenden
+40229001	Aufstieg zu den Besten in Nordamerika!
+40229002	Verwendet das Abzeichen des besten WDH-Teilnehmers in Nordamerika, um den Titel [Der beste Herausforderer 2021 in Nordamerika] zu erhalten.
+40229003	Abzeichen des besten WDH-Teilnehmers in Nordamerika verwenden
+40229501	Der beste Herausforderer 2021 in Nordamerika
+40229800	Abzeichen des besten WDH-Teilnehmers in Nordamerika verwenden
+40230001	Aufstieg zu den Zweitbesten in Nordamerika!
+40230002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers in Nordamerika, um den Titel [Der zweitbeste Herausforderer 2021 in Nordamerika] zu erhalten.
+40230003	Abzeichen des zweitbesten WDH-Teilnehmers in Nordamerika verwenden
+40230501	Der zweitbeste Herausforderer 2021 in Nordamerika
+40230800	Abzeichen des zweitbesten WDH-Teilnehmers in Nordamerika verwenden
+40231001	Aufstieg zu den Drittbesten in Nordamerika!
+40231002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers in Nordamerika, um den Titel [Der drittbeste Herausforderer 2021 in Nordamerika] zu erhalten.
+40231003	Abzeichen des drittbesten WDH-Teilnehmers in Nordamerika verwenden
+40231501	Der drittbeste Herausforderer 2021 in Nordamerika
+40231800	Abzeichen des drittbesten WDH-Teilnehmers in Nordamerika verwenden
+40232001	Aufstieg zu den Besten in Europa und Russland!
+40232002	Verwendet das Abzeichen des besten WDH-Teilnehmers in Europa und Russland, um den Titel [Der beste Herausforderer 2021 in Europa und Russland] zu erhalten.
+40232003	Abzeichen des besten WDH-Teilnehmers in Europa und Russland verwenden
+40232501	Der beste Herausforderer 2021 in Europa und Russland
+40232800	Abzeichen des besten WDH-Teilnehmers in Europa und Russland verwenden
+40233001	Aufstieg zu den Zweitbesten in Europa und Russland!
+40233002	Verwendet das Abzeichen des zweitbesten WDH-Teilnehmers in Europa und Russland, um den Titel [Der zweitbeste Herausforderer 2021 in Europa und Russland] zu erhalten.
+40233003	Abzeichen des zweitbesten WDH-Teilnehmers in Europa und Russland verwenden
+40233501	Der zweitbeste Herausforderer 2021 in Europa und Russland
+40233800	Abzeichen des zweitbesten WDH-Teilnehmers in Europa und Russland verwenden
+40234001	Aufstieg zu den Drittbesten in Europa und Russland!
+40234002	Verwendet das Abzeichen des drittbesten WDH-Teilnehmers in Europa und Russland, um den Titel [Der drittbeste Herausforderer 2021 in Europa und Russland] zu erhalten.
+40234003	Abzeichen des drittbesten WDH-Teilnehmers in Europa und Russland verwenden
+40234501	Der drittbeste Herausforderer 2021 in Europa und Russland
+40234800	Abzeichen des drittbesten WDH-Teilnehmers in Europa und Russland verwenden
+40235001	Die Heimat des WDH-Gewinners
+40235002	Verwendet das Siegesabzeichen , um den Titel [Ruhm des Siegers] zu erhalten.
+40235003	Siegesabzeichen verwenden
+40235501	Ruhm des Siegers
+40235800	Siegesabzeichen verwenden
 53000101	Bloody God
 53000102	1-st place at the Bloody Island event (season 1)
 53000103	1-st place at the Bloody Island event (season 1)
@@ -10862,6 +11133,13 @@
 99150003	2. und 3. Platz in diesem Zyklus
 99150004	Valkyon-Föderation
 99150501	Beschützer des Himmelskreuzers
+99151001	PvE-Rangbelohnung (Chaos-Eisthron) für den 1. Platz: Mächtiger Wächter (BTS, falls sichtbar):
+99151002	1. Platz (Zyklus)
+99151003	1. Platz (Zyklus)
+99151501	Herrscher von Chaos-Eisthron
+99152001	PvE-Rangbelohnung (Chaos-Eisthron) für den 2. und 3. Platz (BTS, falls sichtbar):
+99152002	2. und 3. Platz (Zyklus)
+99152003	2. und 3. Platz (Zyklus)
 99152500	TBA
 99152501	Sieg in der Battle Arena!
 99152502	5. Sieg in der Battle Arena!
@@ -11491,6 +11769,17 @@
 99153126	Sprecht mit Tamur.
 99153127	Sprecht mit Kaidun.
 99153128	Sprecht mit Rida.
+99153129	1. Platz (Zyklus)
+99153130	2. und 3. Platz (Zyklus)
+99153131	PVE-Rangbelohnung (Halle der Shandra Manaya (schwierig)) für den 1. Platz: Mächtiger Wächter (BTS, falls sichtbar):
+99153132	1. Platz in diesem Zyklus
+99153133	1. Platz in diesem Zyklus
+99153134	Näher zum Thron
+99153501	Ausrottung von Shandra Manaya
+99154001	PVE-Rangbelohnung (Halle der Shandra Manaya (schwierig)) für den 2. und 3. Platz (BTS, falls sichtbar):
+99154002	2. und 3. Platz in diesem Zyklus
+99154003	2. und 3. Platz in diesem Zyklus
+99154501	Auslöschung von Shandra Manaya
 503000001	Tourist of the Bloody Island
 503000002	Visited the Bloody Island
 503000003	Visited the Bloody Island
